@@ -1,15 +1,14 @@
 ***
 <img src='saves/manganda.png'></img>
-<div class="center" style="padding: 1px; height: 70px; background: black; text-align: center;">
-    <h2 style="font-family:Copperplate, Papyrus, fantasy;
-               font-size:30px;
-               font-style:bold;
-               color:white;">
-        Regressive Approach in Rating Mangas thru Sample Art</h2>
-</div>
+<h2 style="font-family:Copperplate, Papyrus, fantasy;
+           font-size:30px;
+           font-style:bold;
+           color:white;" align=center>
+    Regressive Approach in Rating Mangas thru Sample Art</h2>
 
-
+<p align=center>
 by : JP Fabrero
+</p>
 
 ***
 <div class="center" style="padding: 1px; height: 60px; background: black;">
@@ -31,24 +30,25 @@ Started from building my own dataset by Web Scraping.
 
 <img src="figures/figure1.png" alt="plots" style="display:block; margin-left:auto;margin-right:auto;width:100%;">
 
-<center style="font-size:14px;
-                      font-style:default;">
-            <b>Sample Panel - Haikyuu!! by Furudate Haruichi.</b>
-            </center><br><br>
+<p align=center>
+    <b>Sample Panel - Haikyuu!! by Furudate Haruichi.
+    </b>
+</p><br><br>
 
 Building custom Datasets and Dataloaders using Pytorch. Finally, proceeded to retraining a Pretrained ResNET model and coming up with ManGanda. It's best predictive performance so far is off only by  ±0.31 on average. Although the performance of the model seem satisfactory, it still have some room for improvement. 
 
 <img src="figures/figure3.png" alt="plots" style="display:block; margin-left:auto;margin-right:auto;width:100%;">
-<center style="font-size:14px;
-                      font-style:default;">
-            <b>Sample Prediction - The Pale Horse.</b>
-            </center><br>
-<center><b>Average Model Prediction - 7.70<br>   Actual Rating - 7.63</b><center><br>
-<br><br>
+<p align=center>
+    <b>Sample Prediction - The Pale Horse.
+    <br>Average Model Prediction - 7.70
+    <br>Actual Rating - 7.63</b>
+</p><br><br>
+
 Ultimately, ManGanda further leveraged XAI in cracking down the key visual elements with hope to guide artists of what works or don't.
 
 <img src="figures/figure7.png" alt="plots" style="display:block; margin-left:auto;margin-right:auto;width:100%;">
-<center style="font-size:14px;
-                      font-style:default;">
-            <b>GradCAM Implementation - P to JK.</b>
-            </center><br>
+<p align=center>
+    <b>GradCAM Implementation - P to JK.</b>
+</p><br><br>
+
+You can find the full story in my <a href='https://github.com/jpK1ba/ManGanda/blob/master/ManGanda.ipynb'>notebook</a>. 
